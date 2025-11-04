@@ -5,11 +5,6 @@ repo: upptime
 sites:
   - name: GameOnUSA Website
     url: https://gameonusa.com
-  - name: GameOnUSA API
-    url: https://api.gameonusa.com/health
-    expectedStatusCodes:
-      - 200
-      - 404  # Update once health endpoint is implemented
   - name: GameOnUSA Backend
     url: https://gameonusa.com/api
     expectedStatusCodes:
