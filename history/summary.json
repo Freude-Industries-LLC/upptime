@@ -4,19 +4,19 @@
     "url": "https://gameonusa.com",
     "icon": "https://icons.duckduckgo.com/ip3/gameonusa.com.ico",
     "slug": "game-on-usa-website",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 191,
-    "timeDay": 222,
-    "timeWeek": 191,
-    "timeMonth": 191,
-    "timeYear": 191,
+    "status": "up",
+    "uptime": "99.67%",
+    "uptimeDay": "98.92%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.67%",
+    "uptimeYear": "99.67%",
+    "time": 192,
+    "timeDay": 214,
+    "timeWeek": 192,
+    "timeMonth": 192,
+    "timeYear": 192,
     "dailyMinutesDown": {
-      "2025-11-07": 0
+      "2025-11-07": 16
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://gameonusa.com/api",
     "icon": "https://icons.duckduckgo.com/ip3/gameonusa.com.ico",
     "slug": "game-on-usa-backend",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 27,
-    "timeDay": 38,
-    "timeWeek": 27,
-    "timeMonth": 27,
-    "timeYear": 27,
+    "status": "up",
+    "uptime": "99.67%",
+    "uptimeDay": "98.92%",
+    "uptimeWeek": "99.67%",
+    "uptimeMonth": "99.67%",
+    "uptimeYear": "99.67%",
+    "time": 29,
+    "timeDay": 37,
+    "timeWeek": 29,
+    "timeMonth": 29,
+    "timeYear": 29,
     "dailyMinutesDown": {
-      "2025-11-07": 0
+      "2025-11-07": 15
     }
   }
 ]
