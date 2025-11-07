@@ -4,35 +4,39 @@
     "url": "https://gameonusa.com",
     "icon": "https://icons.duckduckgo.com/ip3/gameonusa.com.ico",
     "slug": "game-on-usa-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 188,
-    "timeDay": 234,
-    "timeWeek": 188,
-    "timeMonth": 188,
-    "timeYear": 188,
-    "dailyMinutesDown": {}
+    "time": 191,
+    "timeDay": 222,
+    "timeWeek": 191,
+    "timeMonth": 191,
+    "timeYear": 191,
+    "dailyMinutesDown": {
+      "2025-11-07": 0
+    }
   },
   {
     "name": "GameOnUSA Backend",
     "url": "https://gameonusa.com/api",
     "icon": "https://icons.duckduckgo.com/ip3/gameonusa.com.ico",
     "slug": "game-on-usa-backend",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 25,
-    "timeDay": 34,
-    "timeWeek": 25,
-    "timeMonth": 25,
-    "timeYear": 25,
-    "dailyMinutesDown": {}
+    "time": 27,
+    "timeDay": 38,
+    "timeWeek": 27,
+    "timeMonth": 27,
+    "timeYear": 27,
+    "dailyMinutesDown": {
+      "2025-11-07": 0
+    }
   }
 ]
