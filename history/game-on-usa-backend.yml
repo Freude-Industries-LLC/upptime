@@ -1,7 +1,7 @@
 url: https://gameonusa.com/api
-status: up
-code: 404
-responseTime: 82
-lastUpdated: 2025-12-12T23:07:05.377Z
+status: down
+code: 403
+responseTime: 136
+lastUpdated: 2025-12-13T20:36:09.863Z
 startTime: 2025-11-04T00:24:25.266Z
 generator: Upptime <https://github.com/upptime/upptime>
