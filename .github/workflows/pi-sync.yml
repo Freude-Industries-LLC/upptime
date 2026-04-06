@@ -1,0 +1,24 @@
+name: Sync Platform Intelligence
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sync PI
+      run: |
+        RESPONSE=$(curl -sf -X POST \
+          https://prod-backend.gameonusa.com/admin/platform/sync \
+          -H "Content-Type: application/json" \
+          -H "X-PI-Sync-Key: ${{ secrets.PI_SYNC_KEY }}" \
+          -d "{\"repo\": \"upptime\", \"git_hash\": \"${{ github.sha }}\", \"branch\": \"master\"}" \
+          2>&1) || true
+
+        if echo "$RESPONSE" | grep -q '"success":true'; then
+          echo "✓ PI sync: $RESPONSE"
+        else
+          echo "⚠️  PI sync failed (non-blocking): $RESPONSE"
+        fi
